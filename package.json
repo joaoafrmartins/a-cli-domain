@@ -1,0 +1,39 @@
+{
+  "name": "a-cli-domain",
+  "version": "0.0.0",
+  "main": "lib/main",
+  "dependencies": {
+    "async": "",
+    "shelljs": "",
+    "inquirer": "",
+    "a-event-domain": "",
+    "a-cli-rc": "",
+    "a-cli-parser": "",
+    "a-cli-registry": "",
+    "a-cli-options": "",
+    "a-cli-console": "",
+    "a-construct-fn": ""
+  },
+  "devDependencies": {
+    "a-cli-bin": "",
+    "a-cli-command": "",
+    "kosher": ""
+  },
+  "scripts": {
+    "test": "mocha --reporter spec --compilers coffee:coffee-script/register ./spec"
+  },
+  "description": "A Cli Domain",
+  "keywords": [
+    "a",
+    "cli",
+    "domain"
+  ],
+  "homepage": "https://github.com/joaoafrmartins/a-cli-domain",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joaoafrmartins/a-cli-domain.git"
+  },
+  "bugs": {
+    "url": "https://github.com/joaoafrmartins/a-cli-domain/issues"
+  }
+}
